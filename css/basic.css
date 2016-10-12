@@ -1,0 +1,44 @@
+@import "compass/css3";
+
+body {
+    font-family: ‘Lucida Sans Unicode’, ‘Lucida Grande’, sans-serif;
+    font-size: 11pt;
+}
+
+.cards-container {
+    line-height: 170px;
+    color: white;
+    font-size: 3em;
+    text-align: center;
+}
+
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.flex-item {
+    border-radius: 10px;
+    background: antiquewhite;
+    border: 1px solid tomato;
+    padding: 5px;
+    width: 200px;
+    height: 180px;
+    margin-top: 10px;  
+}
+
+.tiny-card {
+    border-radius: 8px;
+    background: tomato;
+    margin: 5px 5px;
+}
